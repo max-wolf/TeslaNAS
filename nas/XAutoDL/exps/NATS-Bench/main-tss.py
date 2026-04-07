@@ -623,7 +623,7 @@ if __name__ == "__main__":
         "--hyper",
         type=str,
         default="12",
-        choices=["01", "12", "200"],
+        choices=["01", "12", "70", "200"],
         help="The tag for hyper-parameters.",
     )
 
